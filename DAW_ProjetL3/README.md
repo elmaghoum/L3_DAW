@@ -80,25 +80,25 @@ La gestion des QCM (Questionnaires à Choix Multiples) est une fonctionnalité e
 ## REMARQUE
 - Réaliser des tests de sécurité pour nous assurer que le site est sécurisé contre les attaques et les vulnérabilités potentielles. Nous avons utilisé notre culture générale et des outils de test de sécurité pour détecter les vulnérabilités et les failles de sécurité dans le site. 
 
-- Nos données “fragiles” sont les données utilisateurs (nom, prénom, adresse mail et mot de passe). Il est donc important pour nous de mettre des outils et techniques en oeuvre pour bien gérer la confidentialité des données. La sécurité des données n’est pas une spécification requise par le sujet mais il s’agit pour nous d’un élément supplémentaire que nous souhaitions implémenter (et qui peut compenser pour ce qui n'a pas été fait).
+- Nos données “fragiles” sont les données utilisateurs (nom, prénom, adresse e-mail et mot de passe). Il est donc important pour nous de mettre des outils et des techniques en œuvre pour bien gérer la confidentialité des données. La sécurité des données n’est pas une spécification requise par le sujet, mais il s’agit pour nous d’un élément supplémentaire que nous souhaitions implémenter (et qui peut compenser pour ce qui n'a pas été fait).
 
 - Les password (mots de passe) sont hashés en sha1, et sont stockés directement dans la base de données.
   
-- Bien que ce projet peut etre considerer comme un peu viellot car il a été réaliser srictement en HTML5, CSS, JS, PHP (sans framework) il représente une opportunité d'apprentissage pour tous les membres de l'équipe, en nous permettant de mettre en pratique nos compétences "élémentaire" de développement web et en gestion de projet agile.
-- 
+- Bien que ce projet peut être considéré comme un peu vieillot, car il a été réalisé strictement en HTML5, CSS, JS, PHP (sans framework) il représente une opportunité d'apprentissage pour tous les membres de l'équipe, en nous permettant de mettre en pratique nos compétences "élémentaire" de développement web et en gestion de projet agile.
+  
 ## Conclusion
 
-En Conclusion, nous avons réussi à créer une plateforme fonctionnelle et facile à utiliser pour apprendre et actualiser nos connaissances sur le développement web d'application. Toutefois, il est important de continuer à améliorer le site web pour répondre aux besoins des apprenants et des administrateurs. Dans cette optique, nous avons identifié quelques suggestions d'amélioration qui pourraient être utiles pour optimiser la qualité de notre site de formation, comme par exemple:
+En conclusion, nous avons réussi à créer une plateforme fonctionnelle et facile à utiliser pour apprendre et actualiser nos connaissances sur le développement web d'applications. Toutefois, il est important de continuer à améliorer le site web pour répondre aux besoins des apprenants et des administrateurs. Dans cette optique, nous avons identifié quelques suggestions d'amélioration qui pourraient être utiles pour optimiser la qualité de notre site de formation, par exemple :
 
 - Ajouter des fonctionnalités pour permettre aux apprenants de noter les cours et d'évaluer la qualité de l'enseignement. Cela pourrait aider les futurs apprenants à décider s'ils veulent suivre ce cours ou non.
 - Offrir plus de personnalisation pour la présentation graphique du site en proposant des options pour les couleurs, les polices et les images d'arrière-plan.
 - Optimiser les performances du site en minimisant les requêtes de base de données et en utilisant des techniques de cache pour améliorer la vitesse de chargement des pages.
-- Etc...
+- Etc.
 
-Bien que certaines fonctionnalités n’ayant pas été implémentées faute de temps ou de connaissance, nous avons acquis de précieuses compétences en travaillant ensemble sur ce projet
-comme le sérieux, la rigueur, le travail d'équipe ou encore la communication, la gestion du temps, l’organisation et bien d’autres. 
+Bien que certaines fonctionnalités n’aient pas été implémentées faute de temps ou de connaissance, nous avons acquis de précieuses compétences en travaillant ensemble sur ce projet comme le sérieux, la rigueur, le travail d'équipe ou encore la communication, la gestion du temps, l’organisation et bien d’autres. 
 
-Grâce à ce projet de fin de cursus nous avons nous glisser dans les chaussures de développeurs WEB aguerris et avoir un aperçu du monde du travail
+Grâce à ce projet de fin de cursus, nous avons pu nous glisser dans les chaussures de développeurs WEB aguerris et avoir un aperçu du monde du travail.
+
 
 
 ## AUTEUR
