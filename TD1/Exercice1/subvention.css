@@ -1,0 +1,40 @@
+
+#reponse{
+
+background-color : red;
+color : black;
+font-style: italic;
+
+}
+
+label {
+  display:inline-block;
+  width:10em;
+    
+}
+
+output {
+background:yellow;
+border:2px solid orange;
+padding:3px 10px
+}
+
+fieldset
+{
+  background-color:#CCC;
+  max-width:500px;
+  padding:16px;	
+ border-color : violet ; 
+ border-style : solid ; border-size : 3 pt ;
+    
+}
+
+
+    
+legend {
+    color: violet;
+   margin-bottom:0px;
+  margin-left:16px;
+    text-align:center;
+    Font-Weight: Bold;
+}

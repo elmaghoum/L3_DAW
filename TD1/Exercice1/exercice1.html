@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" /> 
+	<title>Formulaire HTML5</title>
+	<link rel="stylesheet" type="text/css" href="subvention.css" />	
+
+</head>
+<body>
+
+    <h1>Demande de subventions associations</h1>
+<div>
+	<form id="form" method="post" action="mailto:toto@yahoo.fr"> 
+<fieldset><legend classe="legend1">Identit&eacute;</legend>
+    <p><label>Type d'association: </label>
+			<select name="type">
+				<option> association étudiante </option>
+				<option> association humanitaire </option>
+				<option> association loi 1901	</option>
+				<option> association sportive	</option>
+			</select>
+		</p>
+		<p>
+			<label for="pres">Nom du président déclaré en préfecture : </label>
+			<input type="text" name="nomPres" id="pres" required> 
+		</p>
+		<p>
+  			<label for="name">Nom de l'association : </label>
+			<input type="text" name="nom" id="name" required> 
+		</p>
+		<p>
+			<label for="adresse"> Siège social :</label>
+			<input type="text" name="adresse" size="30" id="adresse" placeholder="adresse, code postal, ville..." required> 
+		</p>
+		<p>
+  			<label for="email">Adresse mail</label>
+			<input type="email" name="email" id="email" required> 
+		</p>
+		<p>
+			<label for="num">Numéro délivré par la préfecture :</label>
+			<input name="nombre" id="num" type="number" required>
+		</p>
+		<p>
+            
+             </fieldset>
+        
+        <p>
+  			<label for="favcolor">Choisir une couleur:</label>
+  			<input type="color" name="favcolor" id="favcolor">
+            <input type="button" value="Changer de couleur" onclick="modifCoul()">
+		</p>
+        <fieldset><legend classe="legend1">Calcul de la subvention</legend>
+			<label>Nombre de membres :</label>
+			<input name="nombreMbr" id="nombreMbr" type="number" >
+		</p>
+		<p><label>Subvention désirée :</label>
+			
+            <input name="prix" id="prix" type="number" >
+            <input type="button" value="calculer" onclick="affiche()">
+		</p>
+		
+            
+                    <p>subvention max :<output name="ttc" for="ttc"> </output> €</p>
+<p>
+			<label>Description rapide de l'utilisation des fonds :</label><br/>
+			<Textarea name="description" rows=8 cols=60>description</textarea>
+		
+		</p>
+	
+    	<input type="submit" value="Valider" onclick="affiche();"> 
+    	<input type="reset" value="Effacer">
+ </fieldset>
+</form>
+</div>
+<div id="reponse">
+</div>
+<nav> 
+	<a href="http://www.associations.gouv.fr/"> Législation sur les associations </a>
+</nav>
+	
+<script src="subvention.js"></script>
+</body>
+</html>
+
+
+
+ 
