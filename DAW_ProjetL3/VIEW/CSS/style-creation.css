@@ -1,0 +1,59 @@
+﻿section{
+  background-color: #2a2d35;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px #000;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: left;
+  color : #fff;
+}
+
+.input-group label {
+  display: flex;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  display: flex;
+  background-color: #1e1e1e;
+  border : none;
+  border-radius: 5px;
+  padding: 10px;
+  color : #fff;
+}
+
+#input-group-checkbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#input-group-checkbox label{
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+button{
+  background-color: #0072c6;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 30%;
+  transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+  background-color: #0059b3;
+}
