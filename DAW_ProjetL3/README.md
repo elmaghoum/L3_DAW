@@ -2,7 +2,7 @@
 
 ## Contexte
 
-Aujourd'hui, avec la multiplication de la technologie, le développement web est devenu un secteur en constante évolution. Il est crucial de maîtriser les bases et de se tenir informé des dernières tendances et technologies. La création d'un site web de formation dans ce domaine nous semble passionnante et prometteuse. Pour orienter notre projet, nous avons pris comme référence des sites de formation existants tels qu'OpenClassroom.
+Aujourd'hui, avec la multiplication de la technologie, le développement web est devenu un secteur en constante évolution. Il est crucial de maîtriser les bases et de se tenir informé des dernières tendances et technologies. La création d'un site web de formation dans ce domaine nous semble passionnante et prometteuse. Pour orienter notre projet, nous avons pris comme référence des sites de formation existants tels qu'OpenClassroom, W3Schools, Codecademy, Udemy, Coursera...
 
 Ce projet a été réalisé par des étudiants en Licence 3 Informatique dans le cadre du module Développement d'Applications WEB (DAW). Ce travail est un projet de fin de cursus visant à mettre en pratique les connaissances acquises au cours de l'année.
 
