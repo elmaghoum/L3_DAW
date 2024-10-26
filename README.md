@@ -1,4 +1,4 @@
-# Projet de Site Web de Formation
+# DEPOT DU MODULE Développement d'Applications WEB (DAW) - LICENCE 3 Informatique - Université de Bourgogne - 2022-2023
 
 ## Contexte
 
@@ -108,3 +108,6 @@ Grâce à ce projet de fin de cursus nous avons nous glisser dans les chaussures
 - MEZIANE RAYENE
 - AZDAD MOHAMED
 - GENCE ELIO
+
+
+- JANVIER 2023
