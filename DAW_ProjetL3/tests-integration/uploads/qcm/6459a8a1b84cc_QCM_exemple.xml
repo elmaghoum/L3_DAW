@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+
+<QCM nom="Cours1">
+	<question id="cours1_q1">
+		<interrogation>Combien ... ?</interrogation>
+		<propostion>
+			<rep>10</rep>
+			<rep>6</rep>
+			<rep>14</rep>
+		</propostion>
+		<solution>6</solution>
+	</question>
+
+	<question id="cours1_q2">
+		<interrogation>Quand ... ?</interrogation>
+		<propostion>
+			<rep>2000</rep>
+			<rep>2019</rep>
+			<rep>2023</rep>
+		</propostion>
+		<solution>2019</solution>
+	</question>	
+</QCM>

@@ -1,0 +1,103 @@
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+
+<QCM nom="Cours4">
+    <question id="cours4_q1">
+        <interrogation>What is the capital of Italy?</interrogation>
+        <propostion>
+            <rep>Rome</rep>
+            <rep>Paris</rep>
+            <rep>Madrid</rep>
+        </propostion>
+        <solution>Rome</solution>
+    </question>
+
+    <question id="cours4_q2">
+        <interrogation>What is the largest planet in our solar system?</interrogation>
+        <propostion>
+            <rep>Earth</rep>
+            <rep>Jupiter</rep>
+            <rep>Venus</rep>
+        </propostion>
+        <solution>Jupiter</solution>
+    </question>
+
+    <question id="cours4_q3">
+        <interrogation>What is the chemical symbol for water?</interrogation>
+        <propostion>
+            <rep>H2O</rep>
+            <rep>O2</rep>
+            <rep>CO2</rep>
+        </propostion>
+        <solution>H2O</solution>
+    </question>
+
+    <question id="cours4_q4">
+        <interrogation>Who wrote the novel "1984"?</interrogation>
+        <propostion>
+            <rep>George Orwell</rep>
+            <rep>J.K. Rowling</rep>
+            <rep>Ernest Hemingway</rep>
+        </propostion>
+        <solution>George Orwell</solution>
+    </question>
+
+    <question id="cours4_q5">
+        <interrogation>What is the square root of 81?</interrogation>
+        <propostion>
+            <rep>8</rep>
+            <rep>9</rep>
+            <rep>10</rep>
+        </propostion>
+        <solution>9</solution>
+    </question>
+
+    <question id="cours4_q6">
+        <interrogation>What is the currency of Japan?</interrogation>
+        <propostion>
+            <rep>Yuan</rep>
+            <rep>Yen</rep>
+            <rep>Won</rep>
+        </propostion>
+        <solution>Yen</solution>
+    </question>
+
+    <question id="cours4_q7">
+        <interrogation>Which language is used for Android development?</interrogation>
+        <propostion>
+            <rep>Swift</rep>
+            <rep>Java</rep>
+            <rep>JavaScript</rep>
+        </propostion>
+        <solution>Java</solution>
+    </question>
+
+    <question id="cours4_q8">
+        <interrogation>Who invented the telephone?</interrogation>
+        <propostion>
+            <rep>Thomas Edison</rep>
+            <rep>Alexander Graham Bell</rep>
+            <rep>Nikola Tesla</rep>
+        </propostion>
+        <solution>Alexander Graham Bell</solution>
+    </question>
+
+    <question id="cours4_q9">
+        <interrogation>What is the distance in kilometers from the Earth to the Moon?</interrogation>
+        <propostion>
+            <rep>384,400 km</rep>
+            <rep>150 million km</rep>
+            <rep>92.96 million miles</rep>
+        </propostion>
+        <solution>384,400 km</solution>
+    </question>
+
+    <question id="cours4_q10">
+        <interrogation>Who painted the Mona Lisa?</interrogation>
+        <propostion>
+            <rep>Leonardo da Vinci</rep>
+            <rep>Vincent van Gogh</rep>
+            <rep>Pablo Picasso</rep>
+        </propostion>
+        <solution>Leonardo da Vinci</solution>
+    </question>
+</QCM>

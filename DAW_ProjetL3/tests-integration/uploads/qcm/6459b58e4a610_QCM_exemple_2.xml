@@ -1,0 +1,43 @@
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+
+<QCM nom="Cours2">
+    <question id="cours2_q1">
+        <interrogation>What is the capital of France?</interrogation>
+        <propostion>
+            <rep>London</rep>
+            <rep>Paris</rep>
+            <rep>Berlin</rep>
+        </propostion>
+        <solution>Paris</solution>
+    </question>
+
+    <question id="cours2_q2">
+        <interrogation>Who painted the Mona Lisa?</interrogation>
+        <propostion>
+            <rep>Leonardo Da Vinci</rep>
+            <rep>Vincent Van Gogh</rep>
+            <rep>Pablo Picasso</rep>
+        </propostion>
+        <solution>Leonardo Da Vinci</solution>
+    </question>    
+
+	<question id="cours3_q1">
+		<interrogation>Which language is primarily used for web development?</interrogation>
+		<propostion>
+			<rep>Java</rep>
+			<rep>Python</rep>
+			<rep>JavaScript</rep>
+		</propostion>
+		<solution>JavaScript</solution>
+	</question>
+
+	<question id="cours3_q2">
+		<interrogation>Which planet is known as the Red Planet?</interrogation>
+		<propostion>
+			<rep>Mars</rep>
+			<rep>Venus</rep>
+			<rep>Earth</rep>
+		</propostion>
+		<solution>Mars</solution>
+	</question>    
+</QCM>

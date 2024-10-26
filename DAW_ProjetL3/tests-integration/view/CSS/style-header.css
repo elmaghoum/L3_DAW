@@ -1,0 +1,185 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+
+#header-top{
+  height : 125px;
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex: 1;
+}
+
+#container-logo{
+  justify-content: center;
+}
+
+
+#burger{
+  display: flex;
+  align-items: center;
+}
+
+#options-burger{
+  display: none;/*flex*/
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  border : solid 2px white;
+  border-radius: 50px;
+  animation : animBurgerClose .3s linear forwards;
+}
+
+#options-burger:hover{
+  animation : animBurgerOpen .3s linear forwards;
+}
+
+.options-burger{
+  display : flex;
+  flex : 1;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.options-burger a{
+  text-decoration: none;
+  color: white;
+}
+
+#option-2{
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+  height: 60%;
+}
+
+#profile-pict{
+  margin-left: 20px;
+  animation : rotatePP_reverse .3s linear forwards;
+}
+#profile-pict:hover{
+  animation : rotatePP .3s linear forwards;
+}
+
+#container-name{
+  justify-content: flex-end;
+}
+
+#container-name a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+
+
+@keyframes animBurgerOpen{
+  0%{
+      width: 18%;
+  }
+  100%{
+      width: 70%;
+  }
+}
+
+@keyframes animBurgerClose{
+  0%{
+      width: 70%;
+  }
+  100%{
+      width: 18%;
+  }
+}
+
+@keyframes rotatePP{
+  0%{
+      transform: rotateY(0deg);
+  }
+  100%{
+      transform: rotateY(90deg);
+  }
+}
+
+@keyframes rotatePP_reverse{
+  0%{
+      transform: rotateY(90deg);
+  }
+  100%{
+      transform: rotateY(0deg);
+  }
+}
+
+
+
+nav {
+  background-color: #0072c6;
+  text-align: center;
+  margin-bottom: 15px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #0072c6;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+	display: flex;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	align-items: center;
+	justify-content: center;
+  height: 50px;
+}

@@ -1,0 +1,116 @@
+main{
+    width : 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: #2a2d35;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px #000;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    width : 100%;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    width : 100%;
+    text-align: center;
+}
+
+.post{
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.name-date-post{
+    display: flex;
+    flex-direction: column;
+}
+
+.question .name-date-post{
+    margin-left : 10px;
+}
+
+.reponse .name-date-post{
+    margin-right : 10px;
+}
+
+.post div{
+    display: flex;
+}
+
+.reponse{
+    flex-direction: row-reverse;
+}
+
+.reponse .who-posted{
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.who-posted{
+    width : 30%;
+    align-items: center;
+}
+
+form{
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#section-repondre form textarea{
+    background-color: #1e1e1e;
+    color: #fff;
+    width : 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    resize: none;
+    overflow: auto;
+}
+
+button{
+    width: 50%;
+    height: 35px;
+    background-color: #0072c6;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #0059b3;
+}
